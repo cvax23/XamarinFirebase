@@ -29,8 +29,7 @@ namespace XamarinFirebase.Helper
 
         public async Task AddPerson(string personId, string name)
         {
-
-            await firebase
+              await firebase
               .Child("Driver")
               .PostAsync(new Driver() { 
                   DriverId = personId, 
