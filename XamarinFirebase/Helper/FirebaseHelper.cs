@@ -38,6 +38,7 @@ namespace XamarinFirebase.Helper
                     new Vehicle{ Brand = "Toyota",Color="Red",Registration="PBC-124",State = true,Type="Auto",Year="2015"},
                     new Vehicle{ Brand = "KIA",Color="Black",Registration="PVC-664",State=false,Type="Auto",Year="2019"}
               } });
+
         }
 
         public async Task OfferTrip()
