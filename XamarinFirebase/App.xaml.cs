@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,8 @@ namespace XamarinFirebase
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new NavigationPage(new LoginPage());
+            MainPage = new RegisterPage();
         }
 
         protected override void OnStart()

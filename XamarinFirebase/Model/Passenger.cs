@@ -4,14 +4,12 @@ using System.Text;
 
 namespace XamarinFirebase.Model
 {
-    public class Driver
+    public class Passenger
     {
-        public string DriverId { get; set; }
+        public string PassengerId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }
-        public IEnumerable<Vehicle> Vehicles { get; set; }
         public bool State { get; set; }
-
     }
 }
